@@ -76,8 +76,8 @@ if (!in_array($providerName, ['Google', 'Microsoft', 'Yahoo'])) {
 
 //These details are obtained by setting up an app in the Google developer console,
 //or whichever provider you're using.
-$clientId = '1072245112722-q6vh4qgq703icgk7h9d0201vr143rjqq.apps.googleusercontent.com';
-$clientSecret = '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';
+$clientId = '327243645549-vst628hc2g3lgftitapvj2cmvn7r7hc2.apps.googleusercontent.com';
+$clientSecret = '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';
 
 //If this automatic URL doesn't work, set it yourself manually to the URL of this script
 $redirectUri = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
