@@ -80,7 +80,7 @@ $clientId = '327243645549-vst628hc2g3lgftitapvj2cmvn7r7hc2.apps.googleuserconten
 $clientSecret = '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';
 
 //If this automatic URL doesn't work, set it yourself manually to the URL of this script
-$redirectUri = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
+$redirectUri = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 //$redirectUri = 'http://localhost/PHPMailer/redirect';
 
 $params = [
