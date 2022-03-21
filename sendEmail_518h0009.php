@@ -12,8 +12,8 @@
     try {
         // Account settings
         $from_email = 'vghao2000@gmail.com';
-        $clientId = '1072245112722-q6vh4qgq703icgk7h9d0201vr143rjqq.apps.googleusercontent.com';
-        $clientSecret = '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';
+        $clientId = '327243645549-vst628hc2g3lgftitapvj2cmvn7r7hc2.apps.googleusercontent.com';
+        $clientSecret = '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';
         $refreshToken = '1//09k1L92hEutP9CgYIARAAGAkSNwF-L9Ir1ZqE1KfppyU1U9QzqhU_g2Pe8-trXHLmYlSd1-kEiLF2lqsee8G5rbmLmE_Is5CADQE';
         $mail->setFrom($from_email, 'Hào Vương');
 
