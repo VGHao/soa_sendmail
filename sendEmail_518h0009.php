@@ -14,7 +14,7 @@
         $from_email = 'vghao2000@gmail.com';
         $clientId = '327243645549-vst628hc2g3lgftitapvj2cmvn7r7hc2.apps.googleusercontent.com';
         $clientSecret = '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';
-        $refreshToken = '1//09k1L92hEutP9CgYIARAAGAkSNwF-L9Ir1ZqE1KfppyU1U9QzqhU_g2Pe8-trXHLmYlSd1-kEiLF2lqsee8G5rbmLmE_Is5CADQE';
+        $refreshToken = '1//0d1rk_VmunP67CgYIARAAGA0SNwF-L9IrjuYPdceN5cHfcF-S6ohPkg62ya7a1Q20N4TjL1z0Ql3oM2YbFlvjsZ2rRoQ2Cu2Z6Lw';
         $mail->setFrom($from_email, 'Hào Vương');
 
         // Create a new OAuth2 provider instance
