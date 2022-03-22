@@ -51,12 +51,12 @@
         );
 
         // Recipients
-        $mail->addAddress('vuong.giahao@yahoo.com');
+        $mail->addAddress($_POST["recipientEmail"]);
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = 'Here is the subject';
-        $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+        $mail->Subject = $_POST["mailTitle"];
+        $mail->Body    = $_POST["mailContent"];
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
         $mail->send();
