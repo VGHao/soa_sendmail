@@ -11,10 +11,10 @@
 
     try {
         // Account settings
-        $from_email = '518H0589@student.tdtu.edu.vn';
+        $from_email = 'khawkinstran49@gmail.com';
         $clientId = '920008759253-2c7l1agq58pkstocbp4b3ihqqic9lns1.apps.googleusercontent.com';
         $clientSecret = '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';
-        $refreshToken = '1//0dllpzg5g_hBcCgYIARAAGA0SNwF-L9Iri6tZL2A2k0H7P7BC2ATXOolOpSbaKmmLwzp_3_blXjXAHf88E_u79_k1qiVp8QzMnTM';
+        $refreshToken = '1//0dJmSmieRVKtwCgYIARAAGA0SNwF-L9IroGNAWo5lIUoJWpejrlcOiBWb7HPghmWazMbn9LNH20sOEQRNiCOknlV8nP1IyYnjQE8';
         $mail->setFrom($from_email, 'TRAN DINH ANH VU');
 
         // Create a new OAuth2 provider instance
