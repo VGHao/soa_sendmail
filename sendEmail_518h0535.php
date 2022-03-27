@@ -50,18 +50,14 @@
             )
         );
 
-        // Recipients
-               // Content
-               $mail->isHTML(true);
-               $mail->Subject = $_POST["Test"];
-               $mail->Body    = $_POST["mailContent"];
-               $mail->AltBody = 'eheheheeheh';
+          // Recipients
+          $mail->addAddress($_POST["recipientEmail"]);
 
-        // Content
-        $mail->isHTML(true);
-        $mail->Subject = 'Here is the subject';
-        $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+          // Content
+          $mail->isHTML(true);
+          $mail->Subject = $_POST["mailTitle"];
+          $mail->Body    = $_POST["mailContent"];
+          $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
         $mail->send();
         echo 'Message has been sent';
