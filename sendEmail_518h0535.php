@@ -11,7 +11,7 @@
 
     try {
         // Account settings
-        $from_email = 'minhluannguyen12344@gmail.com@gmail.com';
+        $from_email = 'minhluannguyen12344@gmail.com';
         $clientId = '32668005106-j5o59ker6b4o4rs6efga4j08itdc6mp6.apps.googleusercontent.com';
         $clientSecret = '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';
         $refreshToken = '1//0dwNuXZ4Wvkx_CgYIARAAGA0SNwF-L9Irgez_D1IIzkqeBbyIh8MYPmK3f_Q3jaWHCqvdzGZgmkgKkY9EJBoFmdX6ltP5Qo9-A9k';
